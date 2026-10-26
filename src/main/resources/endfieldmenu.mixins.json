@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.pureneko.endfieldmenu.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ApricityScreenAccess",
+    "IframeMixin",
+    "NativeWebViewServiceMixin",
+    "WebViewNativeMixin",
+    "OptionsSubScreenAccess",
+    "VideoSettingsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

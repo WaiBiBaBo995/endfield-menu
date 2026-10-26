@@ -1,0 +1,124 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.143'
+}
+
+group = 'dev.pureneko.endfieldmenu'
+version = mod_version
+base.archivesName = 'endfield-menu'
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.withSourcesJar()
+
+repositories {
+    if (file(".cache/maven/net/neoforged/neoforge/${neo_version}/neoforge-${neo_version}-moddev-config.json").exists()) {
+        exclusiveContent {
+            forRepository { maven { name = 'developmentNeoCache'; url = uri('.cache/maven') } }
+            filter { includeModule('net.neoforged', 'neoforge') }
+        }
+    }
+    // Optional offline cache populated during development; remote Maven remains the normal source.
+    maven { url = uri('.cache/maven') }
+    maven { url = 'https://api.modrinth.com/maven' }
+}
+
+neoForge {
+    version = project.neo_version
+    runs {
+        client {
+            client()
+            gameDirectory = file('run')
+            systemProperty 'endfieldmenu.dev', 'true'
+            if (providers.gradleProperty('capture').isPresent()) systemProperty 'endfieldmenu.capture', providers.gradleProperty('capture').get()
+            if (providers.gradleProperty('captureSmoke').isPresent()) systemProperty 'endfieldmenu.captureSmoke', 'true'
+            if (providers.gradleProperty('fallbackQa').isPresent()) systemProperty 'endfieldmenu.fallbackQa', 'true'
+            if (providers.gradleProperty('backgroundQa').isPresent()) systemProperty 'endfieldmenu.backgroundQa', 'true'
+            if (providers.gradleProperty('captureLab').isPresent()) systemProperty 'endfieldmenu.captureLab', 'true'
+            if (providers.gradleProperty('optimizationQa').isPresent()) systemProperty 'endfieldmenu.optimizationQa', providers.gradleProperty('optimizationQa').get()
+            if (providers.gradleProperty('finalQa').isPresent()) systemProperty 'endfieldmenu.finalQa', 'true'
+            if (providers.gradleProperty('inputTimingQa').isPresent()) systemProperty 'endfieldmenu.inputTimingQa', 'true'
+        }
+    }
+    mods {
+        endfieldmenu { sourceSet sourceSets.main }
+    }
+}
+
+if (providers.gradleProperty('baseline').isPresent()) {
+    sourceSets.main.java.setSrcDirs(['.cache/baseline-1.4.2/java'])
+    sourceSets.main.resources.setSrcDirs(['.cache/baseline-1.4.2/resources'])
+}
+
+dependencies {
+    implementation 'maven.modrinth:UfPdUeGy:fNirAsDh'
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.joml:joml:1.10.5'
+    testImplementation 'org.lwjgl:lwjgl:3.3.3'
+    testRuntimeOnly 'org.lwjgl:lwjgl:3.3.3:natives-windows'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('test') { useJUnitPlatform() }
+tasks.named('jar') {
+    from('LICENSE'); from('THIRD_PARTY_NOTICES.md')
+    into('licenses') {
+        from('tools/native-codec/vendor/libspng-0.7.4/LICENSE') { rename { 'libspng-LICENSE' } }
+        from('tools/native-codec/vendor/zlib-ng-2.2.4/LICENSE.md') { rename { 'zlib-ng-LICENSE.md' } }
+        from('tools/native-codec/vendor/libjpeg-turbo-3.1.2/LICENSE.md') { rename { 'libjpeg-turbo-LICENSE.md' } }
+        from('tools/native-codec/vendor/libjpeg-turbo-3.1.2/README.ijg')
+    }
+}
+// Keep the legacy export workbench in the project, not in the active HTML runtime.
+tasks.named('processResources') { exclude 'assets/endfieldmenu/native/**', 'assets/endfieldmenu/shaders/core/plane.*' }
+
+tasks.register('verifyOriginalPage') {
+    def original = file('reference/endfield_menu-main')
+    def packaged = file('src/main/resources/assets/apricityui/apricity/endfield')
+    inputs.files(fileTree(original) { include 'index.html', 'components/*.js' })
+    inputs.files(fileTree(packaged) { include 'index.html', 'components/*.js' })
+    doLast {
+        def paths = ['index.html'] + fileTree(new File(original, 'components')).matching { include '*.js' }
+                .files.collect { 'components/' + it.name }
+        paths.each { path ->
+            if (!Arrays.equals(new File(original, path).bytes, new File(packaged, path).bytes)) {
+                throw new GradleException("Original webpage was changed: ${path}. Put Minecraft adaptations in minecraft.js.")
+            }
+        }
+        logger.lifecycle("Verified original index.html and ${paths.size() - 1} component scripts unchanged.")
+    }
+}
+tasks.named('check') { dependsOn 'verifyOriginalPage' }
+
+tasks.register('sourceBundle', Zip) {
+    archiveFileName = "endfield-menu-${project.version}-project.zip"
+    destinationDirectory = layout.buildDirectory.dir('distributions')
+    from(projectDir) {
+        exclude '.gradle/**', '.cache/**', 'run/**', 'build/**'
+        include 'src/**', 'gradle/**', 'gradlew', 'gradlew.bat', '*.gradle', 'gradle.properties'
+        include '.gitignore', '.gitattributes'
+        include 'README.md', 'LICENSE', 'THIRD_PARTY_NOTICES.md', 'docs/**'
+        include 'tools/native-export/*.mjs', 'tools/native-export/extract.js', 'tools/native-export/*.html', 'tools/native-export/package*.json'
+        include 'tools/native-codec/**', 'tools/qa/**', 'tools/experiments/**'
+        exclude 'tools/native-codec/build/**', 'tools/**/__pycache__/**'
+        exclude 'tools/native-export/.cache*'
+        include 'reference/endfield_menu-main/*.html', 'reference/endfield_menu-main/*.md'
+        include 'reference/endfield_menu-main/LICENSE', 'reference/endfield_menu-main/components/**'
+    }
+}
+
+// Opt-in integration probe, compiled separately and never included in release artifacts.
+if (providers.gradleProperty('runtimeQa').isPresent()) {
+    sourceSets {
+        qa {
+            compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+            runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+        }
+    }
+    neoForge.mods {
+        endfieldmenuqa { sourceSet sourceSets.qa }
+    }
+    neoForge.runs.client {
+        programArguments.addAll '--width', providers.gradleProperty('qaWidth').getOrElse('1600'), '--height', providers.gradleProperty('qaHeight').getOrElse('900'), '--username', 'SurveyTester'
+    }
+}

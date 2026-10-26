@@ -1,0 +1,25 @@
+* text=auto
+*.java text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.gradle text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+*.cmd text eol=crlf
+*.dll binary
+*.jar binary
+*.zip binary
+*.png binary
+*.jpg binary
+# Preserve the supplied webpage and vendored sources byte-for-byte.
+reference/** -text
+src/main/resources/assets/apricityui/apricity/endfield/index.html -text
+src/main/resources/assets/apricityui/apricity/endfield/components/** -text
+tools/native-codec/vendor/** -text
+*.pdf binary
+*.gz binary
+*.jpg binary

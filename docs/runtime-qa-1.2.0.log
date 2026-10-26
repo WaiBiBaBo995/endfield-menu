@@ -1,0 +1,89 @@
+[18:14:56] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS Esc pause replacement
+[18:14:56] [Render thread/INFO] [de.pu.en.cl.EndfieldMenuScreen/]: [Endfield metrics] {"initMs":0.5959,"closeMs":0.0,"firstDrawMs":8.172,"frameP95Ms":-1.0,"gameFps":118,"viewId":2245076430048} status=ready=1 nav=1 capture=38 done=32 rejected=5 stale=0 decodeFail=0 bytes=183844 roundTrip=70ms decode=9ms period=5170ms loop=138Hz fps=0 cmd=0/1ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1600x900 format=jpeg window=1600x900 | channel=1600x900 arena=8064KB pub=370/90633KB/1862r read=320/78451KB/1373r full=4 deferred=0 resync=5 free=8064KB |  | box=1707x959 zoom=0.937 | focus=no buttons=0 | stream=1600x900 packets=320/370 rects=1373 payload=78451/90633KB resync=5
+[18:15:00] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS mixin exposes a warmed browser
+[18:15:00] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS requested raster matches native framebuffer 1600x900
+[18:15:00] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS native backend preserves requested raster
+[18:15:00] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS AUI resource document exists
+[18:15:00] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS singleplayer world is paused
+[18:15:00] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS original page exposes all Minecraft actions
+[18:15:00] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS original page has no script errors
+[18:15:00] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS real terrain and contours reach WebGL
+[18:15:00] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: settings
+[18:15:03] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS settings button
+[18:15:03] [Render thread/INFO] [de.pu.en.cl.EndfieldMenuScreen/]: [Endfield metrics] {"initMs":0.5709,"closeMs":0.5581,"firstDrawMs":5.1179,"frameP95Ms":-1.0,"gameFps":118,"viewId":2245076430048} status=ready=1 nav=1 capture=159 done=153 rejected=5 stale=0 decodeFail=0 bytes=183892 roundTrip=102ms decode=1ms period=3491ms loop=137Hz fps=0 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1600x900 format=jpeg window=1600x900 | channel=1600x900 arena=8064KB pub=1795/438256KB/10386r read=1462/358415KB/6634r full=33 deferred=0 resync=34 free=8064KB |  | box=1707x959 zoom=0.937 | focus=no buttons=0 | stream=1600x900 packets=1462/1795 rects=6634 payload=358415/438256KB resync=34
+[18:15:07] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS return from settings
+[18:15:07] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS settings return reuses browser and document
+[18:15:07] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: advancements
+[18:15:10] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS advancements button
+[18:15:10] [Render thread/INFO] [de.pu.en.cl.EndfieldMenuScreen/]: [Endfield metrics] {"initMs":0.5479,"closeMs":0.1368,"firstDrawMs":9.1184,"frameP95Ms":-1.0,"gameFps":118,"viewId":2245076430048} status=ready=1 nav=1 capture=313 done=307 rejected=5 stale=0 decodeFail=0 bytes=183329 roundTrip=93ms decode=6ms period=3505ms loop=138Hz fps=0 cmd=0/1ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1600x900 format=jpeg window=1600x900 | channel=1600x900 arena=8064KB pub=3816/930368KB/21230r read=3153/773071KB/13317r full=80 deferred=1 resync=80 free=8064KB |  | box=1707x959 zoom=0.937 | focus=no buttons=0 | stream=1600x900 packets=3153/3816 rects=13317 payload=773071/930368KB resync=80
+[18:15:14] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS return from advancements
+[18:15:14] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: stats
+[18:15:17] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS statistics button
+[18:15:17] [Render thread/INFO] [de.pu.en.cl.EndfieldMenuScreen/]: [Endfield metrics] {"initMs":0.5474,"closeMs":0.119101,"firstDrawMs":4.7708,"frameP95Ms":-1.0,"gameFps":118,"viewId":2245076430048} status=ready=1 nav=1 capture=454 done=448 rejected=5 stale=0 decodeFail=0 bytes=183630 roundTrip=76ms decode=9ms period=3493ms loop=138Hz fps=0 cmd=0/1ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1600x900 format=jpeg window=1600x900 | channel=1600x900 arena=8064KB pub=5543/1351336KB/31735r read=4582/1122229KB/20389r full=113 deferred=3 resync=115 free=8064KB |  | box=1707x959 zoom=0.937 | focus=no buttons=0 | stream=1600x900 packets=4582/5543 rects=20389 payload=1122229/1351336KB resync=115
+[18:15:21] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS return from statistics
+[18:15:21] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: inventory
+[18:15:24] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS inventory button
+[18:15:24] [Render thread/INFO] [de.pu.en.cl.EndfieldMenuScreen/]: [Endfield metrics] {"initMs":0.914799,"closeMs":0.156301,"firstDrawMs":13.7299,"frameP95Ms":-1.0,"gameFps":117,"viewId":2245076430048} status=ready=1 nav=1 capture=594 done=588 rejected=5 stale=0 decodeFail=0 bytes=183364 roundTrip=73ms decode=7ms period=3516ms loop=135Hz fps=0 cmd=1/1ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1600x900 format=jpeg window=1600x900 | channel=1600x900 arena=8064KB pub=7401/1804442KB/41840r read=6119/1498165KB/26922r full=153 deferred=3 resync=155 free=8064KB |  | box=1707x959 zoom=0.937 | focus=no buttons=0 | stream=1600x900 packets=6119/7401 rects=26922 payload=1498165/1804442KB resync=155
+[18:15:29] [Render thread/INFO] [de.pu.en.cl.EndfieldMenuScreen/]: [Endfield metrics] {"initMs":0.914799,"closeMs":0.156301,"firstDrawMs":13.7299,"frameP95Ms":9.9788,"gameFps":117,"viewId":2245076430048} status=ready=1 nav=1 capture=780 done=772 rejected=5 stale=0 decodeFail=0 bytes=186589 roundTrip=60ms decode=6ms period=16ms loop=699Hz fps=36 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1600x900 format=jpeg window=1600x900 | channel=1600x900 arena=8064KB pub=9777/2384433KB/55136r read=8114/1987481KB/35196r full=207 deferred=3 resync=208 free=8064KB |  | box=1707x959 zoom=0.937 | focus=yes buttons=0 | stream=1600x900 packets=8114/9777 rects=35196 payload=1987481/2384433KB resync=208
+[18:15:31] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS drag and wheel change browser terrain view
+[18:15:31] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: map-reset
+[18:15:34] [Render thread/INFO] [de.pu.en.cl.EndfieldMenuScreen/]: [Endfield metrics] {"initMs":0.914799,"closeMs":0.156301,"firstDrawMs":13.7299,"frameP95Ms":9.816101,"gameFps":118,"viewId":2245076430048} status=ready=1 nav=1 capture=962 done=954 rejected=5 stale=0 decodeFail=0 bytes=183403 roundTrip=57ms decode=6ms period=19ms loop=715Hz fps=34 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1600x900 format=jpeg window=1600x900 | channel=1600x900 arena=8064KB pub=12118/2959172KB/68047r read=10122/2482508KB/43848r full=252 deferred=3 resync=254 free=8064KB |  | box=1707x959 zoom=0.937 | focus=yes buttons=0 | stream=1600x900 packets=10122/12118 rects=43848 payload=2482508/2959172KB resync=254
+[18:15:35] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS map reset restores rotation and zoom
+[18:15:35] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: refresh
+[18:15:35] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: quit
+[18:15:38] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS exit confirmation
+[18:15:39] [Render thread/INFO] [de.pu.en.cl.EndfieldMenuScreen/]: [Endfield metrics] {"initMs":0.5313,"closeMs":0.153199,"firstDrawMs":8.2195,"frameP95Ms":9.9869,"gameFps":118,"viewId":2245076430048} status=ready=1 nav=1 capture=1039 done=1032 rejected=5 stale=0 decodeFail=0 bytes=184223 roundTrip=75ms decode=0ms period=16ms loop=249Hz fps=8 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1600x900 format=jpeg window=1600x900 | channel=1600x900 arena=8064KB pub=13104/3202513KB/72646r read=11051/2711959KB/47845r full=260 deferred=6 resync=261 free=8064KB |  | box=1707x959 zoom=0.937 | focus=no buttons=0 | stream=1600x900 packets=11051/13104 rects=47845 payload=2711959/3202513KB resync=261
+[18:15:42] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS cancel exit restores menu
+[18:15:42] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: resume
+[18:15:45] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS resume returns to game
+[18:15:45] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS closing menu retains browser and document
+[18:15:45] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS hidden webpage suspends animation
+[18:15:45] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] lifecycle timing {"initMs":0.5313,"closeMs":0.0991,"firstDrawMs":8.2195,"frameP95Ms":9.705,"gameFps":118,"viewId":2245076430048}
+[18:15:45] [Render thread/INFO] [de.pu.en.cl.EndfieldMenuScreen/]: [Endfield metrics] {"initMs":0.8199,"closeMs":0.0991,"firstDrawMs":16.1665,"frameP95Ms":-1.0,"gameFps":118,"viewId":2245076430048} status=ready=1 nav=1 capture=1167 done=1160 rejected=5 stale=0 decodeFail=0 bytes=9310 roundTrip=37ms decode=0ms period=18ms loop=138Hz fps=0 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1600x900 format=jpeg window=1600x900 | channel=1600x900 arena=8064KB pub=14739/3601295KB/82029r read=12412/3045851KB/53811r full=299 deferred=6 resync=300 free=8064KB |  | box=1707x959 zoom=0.937 | focus=no buttons=0 | stream=1600x900 packets=12412/14739 rects=53811 payload=3045851/3601295KB resync=300
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS reopening reuses warmed browser
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS requested raster matches native framebuffer 1280x720
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS native backend preserves requested raster
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: map-reset
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: map-reset
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: refresh
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: refresh
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: settings
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: settings
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: view-reset
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: view-reset
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: resume
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: resume
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: inventory
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: inventory
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: advancements
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: advancements
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: stats
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: stats
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: quit
+[18:15:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: quit
+[18:15:50] [Render thread/INFO] [de.pu.en.cl.EndfieldMenuScreen/]: [Endfield metrics] {"initMs":1.727899,"closeMs":0.0991,"firstDrawMs":22.0337,"frameP95Ms":9.8803,"gameFps":116,"viewId":2244986310896} status=ready=1 nav=1 capture=41 done=34 rejected=5 stale=0 decodeFail=0 bytes=98789 roundTrip=61ms decode=5ms period=16ms loop=704Hz fps=22 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1000x1000 format=jpeg window=1000x1000 | channel=1000x1000 arena=5952KB pub=209/49201KB/1068r read=207/48801KB/1044r full=1 deferred=0 resync=1 free=5952KB |  | box=1707x1707 zoom=0.586 | focus=no buttons=0 | stream=1000x1000 packets=207/209 rects=1044 payload=48801/49201KB resync=1
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS requested raster matches native framebuffer 1000x1000
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS native backend preserves requested raster
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: map-reset
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: map-reset
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: refresh
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: refresh
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: settings
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: settings
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: view-reset
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: view-reset
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: resume
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: resume
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: inventory
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: inventory
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: advancements
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: advancements
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: stats
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: stats
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: quit
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: quit
+[18:15:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: quit
+[18:15:57] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS exit confirmation after resize
+[18:16:01] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS save and exit returns to title
+[18:16:01] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS test world saved
+[18:16:01] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] ALL RUNTIME CHECKS PASSED

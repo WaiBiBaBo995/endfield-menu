@@ -1,0 +1,53 @@
+{
+  "vertex": "endfieldmenu:terrain",
+  "fragment": "endfieldmenu:terrain",
+  "attributes": [
+    "Position",
+    "Color"
+  ],
+  "samplers": [],
+  "uniforms": [
+    {
+      "name": "View",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0.72,
+        1,
+        128
+      ]
+    },
+    {
+      "name": "Terrain",
+      "type": "float",
+      "count": 4,
+      "values": [
+        64,
+        1.1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Resolution",
+      "type": "float",
+      "count": 2,
+      "values": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Scanner",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

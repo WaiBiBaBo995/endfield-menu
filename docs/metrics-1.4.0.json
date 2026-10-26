@@ -1,0 +1,966 @@
+{
+  "date": "2026-10-25",
+  "inputQa": "all checks passed",
+  "passCount": 36,
+  "unitTests": {
+    "tests": 13,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "snapshots": [
+    {
+      "label": "metrics",
+      "data": {
+        "renderer": "HTML / AUI input + native terrain",
+        "initMs": 1.1113,
+        "closeMs": 0.0,
+        "exitAnimationMs": 0.0,
+        "firstDrawMs": 268.744,
+        "viewId": 3317805469088,
+        "gameFps": 117,
+        "phase": "idle",
+        "surveyRevision": 1,
+        "epoch": 1,
+        "backdropVersion": 1,
+        "frameP95Ms": 10.8398,
+        "browser": {
+          "width": 1920,
+          "height": 1080,
+          "completeFrames": 88,
+          "totalFrames": 91,
+          "discardedIncomplete": 0,
+          "losslessCapture": false,
+          "portalProjection": true,
+          "htmlPresentedFps": 23.40712181859884,
+          "htmlFrameP95Ms": 76.0537
+        },
+        "page": {
+          "ready": true,
+          "active": true,
+          "closing": false,
+          "epoch": 1,
+          "yaw": 0,
+          "tilt": 0.95,
+          "zoom": 1.45,
+          "width": 1920,
+          "height": 1080,
+          "map": {
+            "x": 1001.6165466308594,
+            "y": 583.7083435058594
+          },
+          "right": {
+            "x": 1614.9920043945312,
+            "y": 301.7800750732422,
+            "hit": true,
+            "visible": true
+          },
+          "tileY": 222.812255859375,
+          "camera": "matrix3d(0.999848, -0.0174524, 0, 0, 0.0163999, 0.93955, 0.34202, 0, -0.00596907, -0.341968, 0.939693, 0, 29, -40, 0, 1)",
+          "backdropVersion": 1,
+          "controls": {
+            "map-reset": {
+              "x": 777.6072265625,
+              "y": 893.4152709960938,
+              "hit": true,
+              "visible": true
+            },
+            "refresh": {
+              "x": 1098.4345947265624,
+              "y": 849.3052001953125,
+              "hit": true,
+              "visible": true
+            },
+            "settings": {
+              "x": 1614.9920043945312,
+              "y": 301.7800750732422,
+              "hit": true,
+              "visible": true
+            },
+            "view-reset": {
+              "x": 1679.2156982421875,
+              "y": 429.9967498779297,
+              "hit": true,
+              "visible": true
+            },
+            "resume": {
+              "x": 1827.9690551757812,
+              "y": 62.615962982177734,
+              "hit": true,
+              "visible": true
+            },
+            "inventory": {
+              "x": 231.70431518554688,
+              "y": 438.55308532714844,
+              "hit": true,
+              "visible": true
+            },
+            "advancements": {
+              "x": 202.16452026367188,
+              "y": 626.0195922851562,
+              "hit": true,
+              "visible": true
+            },
+            "stats": {
+              "x": 218.19476318359375,
+              "y": 779.6561889648438,
+              "hit": true,
+              "visible": true
+            },
+            "quit": {
+              "x": 129.39515686035156,
+              "y": 913.2535400390625,
+              "hit": true,
+              "visible": true
+            }
+          },
+          "inputs": [],
+          "errors": []
+        },
+        "capture": "ready=1 nav=1 capture=102 done=95 rejected=5 stale=0 decodeFail=0 bytes=192284 roundTrip=92ms decode=10ms period=25ms loop=698Hz fps=24 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=2944/745200KB/2944r read=0/0KB/0r full=92 deferred=0 resync=0 free=3098KB | "
+      }
+    },
+    {
+      "label": "stable metrics",
+      "data": {
+        "renderer": "HTML / AUI input + native terrain",
+        "initMs": 0.138,
+        "closeMs": 0.4291,
+        "exitAnimationMs": 0.0,
+        "firstDrawMs": 119.0847,
+        "viewId": 3317805469088,
+        "gameFps": 117,
+        "phase": "idle",
+        "surveyRevision": 2,
+        "epoch": 7,
+        "backdropVersion": 6,
+        "frameP95Ms": 10.3287,
+        "browser": {
+          "width": 1920,
+          "height": 1080,
+          "completeFrames": 99,
+          "totalFrames": 800,
+          "discardedIncomplete": 0,
+          "losslessCapture": false,
+          "portalProjection": true,
+          "htmlPresentedFps": 25.382993104528616,
+          "htmlFrameP95Ms": 77.4103
+        },
+        "page": {
+          "ready": true,
+          "active": true,
+          "closing": false,
+          "epoch": 7,
+          "yaw": 0,
+          "tilt": 0.95,
+          "zoom": 1.45,
+          "width": 1920,
+          "height": 1080,
+          "map": {
+            "x": 993.2571716308594,
+            "y": 592.8991851806641
+          },
+          "right": {
+            "x": 1607.190185546875,
+            "y": 313.01609802246094,
+            "hit": true,
+            "visible": true
+          },
+          "tileY": 236.97625732421875,
+          "camera": "matrix3d(0.99957, -0.00605823, -0.028674, 0, 0.0162201, 0.929249, 0.369098, 0, 0.0244092, -0.369405, 0.928948, 0, 29, -40, 0, 1)",
+          "backdropVersion": 6,
+          "controls": {
+            "map-reset": {
+              "x": 774.52744140625,
+              "y": 891.6317260742187,
+              "hit": true,
+              "visible": true
+            },
+            "refresh": {
+              "x": 1097.6100341796875,
+              "y": 848.265966796875,
+              "hit": true,
+              "visible": true
+            },
+            "settings": {
+              "x": 1607.190185546875,
+              "y": 313.01609802246094,
+              "hit": true,
+              "visible": true
+            },
+            "view-reset": {
+              "x": 1671.3323974609375,
+              "y": 438.6993408203125,
+              "hit": true,
+              "visible": true
+            },
+            "resume": {
+              "x": 1811.0642700195312,
+              "y": 85.38785934448242,
+              "hit": true,
+              "visible": true
+            },
+            "inventory": {
+              "x": 224.81285095214844,
+              "y": 428.2598876953125,
+              "hit": true,
+              "visible": true
+            },
+            "advancements": {
+              "x": 192.12308502197266,
+              "y": 615.598876953125,
+              "hit": true,
+              "visible": true
+            },
+            "stats": {
+              "x": 206.60792541503906,
+              "y": 770.4746398925781,
+              "hit": true,
+              "visible": true
+            },
+            "quit": {
+              "x": 113.09957122802734,
+              "y": 905.2101135253906,
+              "hit": true,
+              "visible": true
+            }
+          },
+          "inputs": [
+            {
+              "type": "pointerup",
+              "x": 205,
+              "y": 629,
+              "target": "advancements"
+            },
+            {
+              "type": "pointerdown",
+              "x": 219,
+              "y": 780,
+              "target": "stats"
+            },
+            {
+              "type": "pointerup",
+              "x": 219,
+              "y": 780,
+              "target": "stats"
+            },
+            {
+              "type": "pointerdown",
+              "x": 228,
+              "y": 434,
+              "target": "inventory"
+            },
+            {
+              "type": "pointerup",
+              "x": 228,
+              "y": 434,
+              "target": "inventory"
+            },
+            {
+              "type": "pointerdown",
+              "x": 1001,
+              "y": 583,
+              "target": "DIV"
+            },
+            {
+              "type": "pointerup",
+              "x": 1341,
+              "y": 663,
+              "target": "DIV"
+            },
+            {
+              "type": "wheel",
+              "x": 1341,
+              "y": 663,
+              "target": "DIV"
+            },
+            {
+              "type": "pointerdown",
+              "x": 777,
+              "y": 892,
+              "target": "map-reset"
+            },
+            {
+              "type": "pointerup",
+              "x": 777,
+              "y": 892,
+              "target": "map-reset"
+            },
+            {
+              "type": "pointerdown",
+              "x": 119,
+              "y": 908,
+              "target": "quit"
+            },
+            {
+              "type": "pointerup",
+              "x": 119,
+              "y": 908,
+              "target": "quit"
+            }
+          ],
+          "errors": []
+        },
+        "capture": "ready=1 nav=1 capture=817 done=810 rejected=5 stale=0 decodeFail=0 bytes=191608 roundTrip=77ms decode=10ms period=18ms loop=712Hz fps=27 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=25600/6480000KB/25600r read=0/0KB/0r full=800 deferred=0 resync=0 free=11200KB | "
+      }
+    },
+    {
+      "label": "film lifecycle",
+      "data": {
+        "renderer": "HTML / AUI input + native terrain",
+        "initMs": 0.2065,
+        "closeMs": 0.2455,
+        "exitAnimationMs": 529.4404,
+        "firstDrawMs": 164.7365,
+        "viewId": 3317805469088,
+        "gameFps": 117,
+        "phase": "hidden",
+        "surveyRevision": 4,
+        "epoch": 10,
+        "backdropVersion": 10,
+        "frameP95Ms": 11.2839,
+        "browser": {
+          "width": 1920,
+          "height": 1080,
+          "completeFrames": 96,
+          "totalFrames": 1439,
+          "discardedIncomplete": 0,
+          "losslessCapture": false,
+          "portalProjection": true,
+          "htmlPresentedFps": 22.281338391681864,
+          "htmlFrameP95Ms": 103.8178
+        },
+        "page": {
+          "ready": true,
+          "active": true,
+          "closing": true,
+          "epoch": 10,
+          "yaw": 0,
+          "tilt": 0.95,
+          "zoom": 1.45,
+          "width": 1920,
+          "height": 1080,
+          "map": {
+            "x": 994.2109985351562,
+            "y": 542.9312744140625
+          },
+          "right": {
+            "x": 1521.9102783203125,
+            "y": 303.4048309326172,
+            "hit": true,
+            "visible": true
+          },
+          "tileY": 224.409423828125,
+          "camera": "matrix3d(0.999848, -0.0174524, 0, 0, 0.0163999, 0.93955, 0.34202, 0, -0.00596907, -0.341968, 0.939693, 0, 29, -40, 0, 1)",
+          "backdropVersion": 10,
+          "controls": {
+            "map-reset": {
+              "x": 1655.8488159179688,
+              "y": 294.586181640625,
+              "hit": true,
+              "visible": true
+            },
+            "refresh": {
+              "x": 1721.665771484375,
+              "y": 421.82408142089844,
+              "hit": true,
+              "visible": true
+            },
+            "settings": {
+              "x": 1521.9102783203125,
+              "y": 303.4048309326172,
+              "hit": true,
+              "visible": true
+            },
+            "view-reset": {
+              "x": 1583.5227661132812,
+              "y": 431.66709899902344,
+              "hit": true,
+              "visible": true
+            },
+            "resume": {
+              "x": 1832.7659301757812,
+              "y": 63.81258010864258,
+              "hit": false,
+              "visible": false
+            },
+            "inventory": {
+              "x": 239.63438415527344,
+              "y": 422.55516052246094,
+              "hit": false,
+              "visible": false
+            },
+            "advancements": {
+              "x": 437.62181091308594,
+              "y": 94.77588272094727,
+              "hit": true,
+              "visible": true
+            },
+            "stats": {
+              "x": 553.2613525390625,
+              "y": 92.75738906860352,
+              "hit": true,
+              "visible": true
+            },
+            "quit": {
+              "x": 134.11522674560547,
+              "y": 924.390380859375,
+              "hit": true,
+              "visible": true
+            }
+          },
+          "inputs": [
+            {
+              "type": "pointerup",
+              "x": 228,
+              "y": 434,
+              "target": "inventory"
+            },
+            {
+              "type": "pointerdown",
+              "x": 1001,
+              "y": 583,
+              "target": "DIV"
+            },
+            {
+              "type": "pointerup",
+              "x": 1341,
+              "y": 663,
+              "target": "DIV"
+            },
+            {
+              "type": "wheel",
+              "x": 1341,
+              "y": 663,
+              "target": "DIV"
+            },
+            {
+              "type": "pointerdown",
+              "x": 777,
+              "y": 892,
+              "target": "map-reset"
+            },
+            {
+              "type": "pointerup",
+              "x": 777,
+              "y": 892,
+              "target": "map-reset"
+            },
+            {
+              "type": "pointerdown",
+              "x": 119,
+              "y": 908,
+              "target": "quit"
+            },
+            {
+              "type": "pointerup",
+              "x": 119,
+              "y": 908,
+              "target": "quit"
+            },
+            {
+              "type": "pointerdown",
+              "x": 1079,
+              "y": 194,
+              "target": "settings"
+            },
+            {
+              "type": "pointerup",
+              "x": 1079,
+              "y": 194,
+              "target": "DIV"
+            },
+            {
+              "type": "pointerdown",
+              "x": 1226,
+              "y": 29,
+              "target": "resume"
+            },
+            {
+              "type": "pointerup",
+              "x": 1226,
+              "y": 29,
+              "target": "resume"
+            }
+          ],
+          "errors": []
+        },
+        "capture": "ready=1 nav=1 capture=1476 done=1471 rejected=5 stale=0 decodeFail=0 bytes=55633 roundTrip=135ms decode=15ms period=86ms loop=119Hz fps=0 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=38726/9716818KB/38817r read=0/0KB/0r full=1439 deferred=0 resync=0 free=11200KB | "
+      }
+    },
+    {
+      "label": "final hybrid metrics",
+      "data": {
+        "renderer": "HTML / AUI input + native terrain",
+        "initMs": 0.2052,
+        "closeMs": 0.1642,
+        "exitAnimationMs": 529.9109,
+        "firstDrawMs": 114.3255,
+        "viewId": 3317805469088,
+        "gameFps": 118,
+        "phase": "idle",
+        "surveyRevision": 7,
+        "epoch": 13,
+        "backdropVersion": 13,
+        "frameP95Ms": 10.3738,
+        "browser": {
+          "width": 1920,
+          "height": 1080,
+          "completeFrames": 92,
+          "totalFrames": 1743,
+          "discardedIncomplete": 0,
+          "losslessCapture": false,
+          "portalProjection": true,
+          "htmlPresentedFps": 23.692286046810857,
+          "htmlFrameP95Ms": 85.5089
+        },
+        "page": {
+          "ready": true,
+          "active": true,
+          "closing": false,
+          "epoch": 13,
+          "yaw": 0,
+          "tilt": 0.95,
+          "zoom": 1.45,
+          "width": 1920,
+          "height": 1080,
+          "map": {
+            "x": 1001.6165466308594,
+            "y": 583.7083435058594
+          },
+          "right": {
+            "x": 1614.9920043945312,
+            "y": 301.7800750732422,
+            "hit": true,
+            "visible": true
+          },
+          "tileY": 222.812255859375,
+          "camera": "matrix3d(0.999848, -0.0174524, 0, 0, 0.0163999, 0.93955, 0.34202, 0, -0.00596907, -0.341968, 0.939693, 0, 29, -40, 0, 1)",
+          "backdropVersion": 13,
+          "controls": {
+            "map-reset": {
+              "x": 777.6072265625,
+              "y": 893.4152709960938,
+              "hit": true,
+              "visible": true
+            },
+            "refresh": {
+              "x": 1098.4345947265624,
+              "y": 849.3052001953125,
+              "hit": true,
+              "visible": true
+            },
+            "settings": {
+              "x": 1614.9920043945312,
+              "y": 301.7800750732422,
+              "hit": true,
+              "visible": true
+            },
+            "view-reset": {
+              "x": 1679.2156982421875,
+              "y": 429.9967498779297,
+              "hit": true,
+              "visible": true
+            },
+            "resume": {
+              "x": 1827.9690551757812,
+              "y": 62.615962982177734,
+              "hit": true,
+              "visible": true
+            },
+            "inventory": {
+              "x": 231.70431518554688,
+              "y": 438.55308532714844,
+              "hit": true,
+              "visible": true
+            },
+            "advancements": {
+              "x": 202.16452026367188,
+              "y": 626.0195922851562,
+              "hit": true,
+              "visible": true
+            },
+            "stats": {
+              "x": 218.19476318359375,
+              "y": 779.6561889648438,
+              "hit": true,
+              "visible": true
+            },
+            "quit": {
+              "x": 129.39515686035156,
+              "y": 913.2535400390625,
+              "hit": true,
+              "visible": true
+            }
+          },
+          "inputs": [
+            {
+              "type": "pointerup",
+              "x": 228,
+              "y": 434,
+              "target": "inventory"
+            },
+            {
+              "type": "pointerdown",
+              "x": 1001,
+              "y": 583,
+              "target": "DIV"
+            },
+            {
+              "type": "pointerup",
+              "x": 1341,
+              "y": 663,
+              "target": "DIV"
+            },
+            {
+              "type": "wheel",
+              "x": 1341,
+              "y": 663,
+              "target": "DIV"
+            },
+            {
+              "type": "pointerdown",
+              "x": 777,
+              "y": 892,
+              "target": "map-reset"
+            },
+            {
+              "type": "pointerup",
+              "x": 777,
+              "y": 892,
+              "target": "map-reset"
+            },
+            {
+              "type": "pointerdown",
+              "x": 119,
+              "y": 908,
+              "target": "quit"
+            },
+            {
+              "type": "pointerup",
+              "x": 119,
+              "y": 908,
+              "target": "quit"
+            },
+            {
+              "type": "pointerdown",
+              "x": 1079,
+              "y": 194,
+              "target": "settings"
+            },
+            {
+              "type": "pointerup",
+              "x": 1079,
+              "y": 194,
+              "target": "DIV"
+            },
+            {
+              "type": "pointerdown",
+              "x": 1226,
+              "y": 29,
+              "target": "resume"
+            },
+            {
+              "type": "pointerup",
+              "x": 1226,
+              "y": 29,
+              "target": "resume"
+            }
+          ],
+          "errors": []
+        },
+        "capture": "ready=1 nav=1 capture=1788 done=1781 rejected=5 stale=0 decodeFail=0 bytes=191023 roundTrip=77ms decode=11ms period=58ms loop=680Hz fps=25 cmd=0/0ms pending=1 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=48477/12185035KB/48571r read=0/0KB/0r full=1743 deferred=2 resync=0 free=11200KB | "
+      }
+    },
+    {
+      "label": "hidden capture",
+      "data": {
+        "renderer": "HTML / AUI input + native terrain",
+        "initMs": 0.1984,
+        "closeMs": 0.2414,
+        "exitAnimationMs": 529.8752,
+        "firstDrawMs": 104.5067,
+        "viewId": 3317805469088,
+        "gameFps": 118,
+        "phase": "hidden",
+        "surveyRevision": 9,
+        "epoch": 14,
+        "backdropVersion": 14,
+        "frameP95Ms": 10.2638,
+        "browser": {
+          "width": 1920,
+          "height": 1080,
+          "completeFrames": 392,
+          "totalFrames": 2474,
+          "discardedIncomplete": 0,
+          "losslessCapture": false,
+          "portalProjection": true,
+          "htmlPresentedFps": 23.84896565938029,
+          "htmlFrameP95Ms": 76.5439
+        },
+        "page": {
+          "ready": true,
+          "active": true,
+          "closing": true,
+          "epoch": 14,
+          "yaw": 0,
+          "tilt": 0.95,
+          "zoom": 1.45,
+          "width": 1920,
+          "height": 1080,
+          "map": {
+            "x": 993.9308166503906,
+            "y": 543.1029357910156
+          },
+          "right": {
+            "x": 1521.6983642578125,
+            "y": 302.3317413330078,
+            "hit": true,
+            "visible": true
+          },
+          "tileY": 224.20217895507812,
+          "camera": "matrix3d(0.999733, -0.0211177, 0.0093416, 0, 0.0162457, 0.930716, 0.36538, 0, -0.0164104, -0.365131, 0.930811, 0, 29, -40, 0, 1)",
+          "backdropVersion": 14,
+          "controls": {
+            "map-reset": {
+              "x": 1656.0986938476562,
+              "y": 292.9277801513672,
+              "hit": true,
+              "visible": true
+            },
+            "refresh": {
+              "x": 1723.5903930664062,
+              "y": 418.53956604003906,
+              "hit": true,
+              "visible": true
+            },
+            "settings": {
+              "x": 1521.6983642578125,
+              "y": 302.3317413330078,
+              "hit": true,
+              "visible": true
+            },
+            "view-reset": {
+              "x": 1584.64794921875,
+              "y": 428.9191436767578,
+              "hit": true,
+              "visible": true
+            },
+            "resume": {
+              "x": 1831.2011108398438,
+              "y": 64.57614517211914,
+              "hit": false,
+              "visible": false
+            },
+            "inventory": {
+              "x": 243.07467651367188,
+              "y": 425.72630310058594,
+              "hit": false,
+              "visible": false
+            },
+            "advancements": {
+              "x": 441.9027099609375,
+              "y": 103.56539916992188,
+              "hit": true,
+              "visible": true
+            },
+            "stats": {
+              "x": 556.2812805175781,
+              "y": 100.8770980834961,
+              "hit": true,
+              "visible": true
+            },
+            "quit": {
+              "x": 132.63480377197266,
+              "y": 923.0489501953125,
+              "hit": true,
+              "visible": true
+            }
+          },
+          "inputs": [
+            {
+              "type": "pointerup",
+              "x": 1226,
+              "y": 29,
+              "target": "resume"
+            },
+            {
+              "type": "wheel",
+              "x": 1614,
+              "y": 301,
+              "target": "settings"
+            },
+            {
+              "type": "pointerdown",
+              "x": 1587,
+              "y": 237,
+              "target": "settings"
+            },
+            {
+              "type": "pointerup",
+              "x": 1587,
+              "y": 132,
+              "target": "DIV"
+            },
+            {
+              "type": "keydown",
+              "key": "Escape",
+              "target": "settings"
+            },
+            {
+              "type": "pointerdown",
+              "x": 982,
+              "y": 573,
+              "target": "DIV"
+            },
+            {
+              "type": "pointerup",
+              "x": 1117,
+              "y": 573,
+              "target": "DIV"
+            },
+            {
+              "type": "pointerdown",
+              "x": 1679,
+              "y": 429,
+              "target": "view-reset"
+            },
+            {
+              "type": "pointerup",
+              "x": 1679,
+              "y": 429,
+              "target": "DIV"
+            },
+            {
+              "type": "pointerdown",
+              "x": 1098,
+              "y": 849,
+              "target": "refresh"
+            },
+            {
+              "type": "pointerup",
+              "x": 1098,
+              "y": 849,
+              "target": "refresh"
+            },
+            {
+              "type": "keydown",
+              "key": "Escape",
+              "target": "BODY"
+            }
+          ],
+          "errors": []
+        },
+        "capture": "ready=1 nav=1 capture=2519 done=2514 rejected=5 stale=0 decodeFail=0 bytes=53553 roundTrip=79ms decode=9ms period=51ms loop=120Hz fps=0 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=71869/18106135KB/71963r read=0/0KB/0r full=2474 deferred=2 resync=0 free=11200KB | "
+      }
+    }
+  ],
+  "pngSmoke": {
+    "renderer": "HTML / AUI input + native terrain",
+    "initMs": 1.0983,
+    "closeMs": 0.0,
+    "exitAnimationMs": 0.0,
+    "firstDrawMs": 237.9503,
+    "viewId": 2390152782848,
+    "gameFps": 118,
+    "phase": "idle",
+    "surveyRevision": 1,
+    "epoch": 1,
+    "backdropVersion": 0,
+    "frameP95Ms": 10.3037,
+    "browser": {
+      "width": 1920,
+      "height": 1080,
+      "completeFrames": 17,
+      "totalFrames": 20,
+      "discardedIncomplete": 0,
+      "losslessCapture": true,
+      "portalProjection": true,
+      "htmlPresentedFps": 4.421094922842222,
+      "htmlFrameP95Ms": 373.0267
+    },
+    "page": {
+      "ready": true,
+      "active": true,
+      "closing": false,
+      "epoch": 1,
+      "yaw": 0,
+      "tilt": 0.95,
+      "zoom": 1.45,
+      "width": 1920,
+      "height": 1080,
+      "map": {
+        "x": 1001.6165466308594,
+        "y": 583.7083435058594
+      },
+      "right": {
+        "x": 1614.9920043945312,
+        "y": 301.7800750732422,
+        "hit": true,
+        "visible": true
+      },
+      "tileY": 222.812255859375,
+      "camera": "matrix3d(0.999848, -0.0174524, 0, 0, 0.0163999, 0.93955, 0.34202, 0, -0.00596907, -0.341968, 0.939693, 0, 29, -40, 0, 1)",
+      "backdropVersion": -1,
+      "controls": {
+        "map-reset": {
+          "x": 777.6072265625,
+          "y": 893.4152709960938,
+          "hit": true,
+          "visible": true
+        },
+        "refresh": {
+          "x": 1098.4345947265624,
+          "y": 849.3052001953125,
+          "hit": true,
+          "visible": true
+        },
+        "settings": {
+          "x": 1614.9920043945312,
+          "y": 301.7800750732422,
+          "hit": true,
+          "visible": true
+        },
+        "view-reset": {
+          "x": 1679.2156982421875,
+          "y": 429.9967498779297,
+          "hit": true,
+          "visible": true
+        },
+        "resume": {
+          "x": 1827.9690551757812,
+          "y": 62.615962982177734,
+          "hit": true,
+          "visible": true
+        },
+        "inventory": {
+          "x": 231.70431518554688,
+          "y": 438.55308532714844,
+          "hit": true,
+          "visible": true
+        },
+        "advancements": {
+          "x": 202.16452026367188,
+          "y": 626.0195922851562,
+          "hit": true,
+          "visible": true
+        },
+        "stats": {
+          "x": 218.19476318359375,
+          "y": 779.6561889648438,
+          "hit": true,
+          "visible": true
+        },
+        "quit": {
+          "x": 129.39515686035156,
+          "y": 913.2535400390625,
+          "hit": true,
+          "visible": true
+        }
+      },
+      "inputs": [],
+      "errors": []
+    },
+    "capture": "ready=1 nav=1 capture=29 done=22 rejected=5 stale=0 decodeFail=0 bytes=1363846 roundTrip=484ms decode=25ms period=256ms loop=694Hz fps=4 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=png window=1920x1080 | channel=1920x1080 arena=11200KB pub=652/165042KB/652r read=0/0KB/0r full=20 deferred=1 resync=0 free=11200KB | "
+  }
+}

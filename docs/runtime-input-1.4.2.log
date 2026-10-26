@@ -1,0 +1,281 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :compileQaJava UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :writeClientLegacyClasspath UP-TO-DATE
+> Task :prepareClientRun
+> Task :processQaResources UP-TO-DATE
+> Task :qaClasses UP-TO-DATE
+
+> Task :runClient
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[13:23:35] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.251, --assetIndex, 17, --assetsDir, C:\\Users\\PureNeko\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.44, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.251, --fml.neoFormVersion, 20240808.144430, --width, 1920, --height, 1080, --username, SurveyTester]
+[13:23:35] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.11+9-LTS-jvmci-23.1-b92
+[13:23:35] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[13:23:35] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[13:23:35] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[13:23:35] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[13:23:35] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/PureNeko/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[13:23:35] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 581.80, NVIDIA Corporation
+[13:23:36] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[13:23:36] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		ApricityUI 1.2.8 (apricityui)
+		Endfield Menu 1.4.2 (endfieldmenu)
+		Endfield Menu Runtime QA (development only) 1.0.0 (endfieldmenuqa)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.251 (neoforge)
+[13:23:36] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[13:23:36] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.251, --gameDir, ., --assetsDir, C:\Users\PureNeko\.gradle\caches\neoformruntime\assets, --assetIndex, 17, --width, 1920, --height, 1080, --username, SurveyTester]
+[13:23:38] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 306 milliseconds
+[13:23:38] [pool-9-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[13:23:41] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:23:41] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:23:41] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:23:41] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:23:41] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:23:42] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/E:/ModProject/endfield-menu/build/moddev/artifacts/neoforge-21.1.251.jar%23190!/assets/.mcassetsroot' uses unexpected schema
+[13:23:42] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/E:/ModProject/endfield-menu/build/moddev/artifacts/neoforge-21.1.251.jar%23190!/data/.mcassetsroot' uses unexpected schema
+[13:23:42] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:23:42] [Render thread/INFO] [minecraft/Minecraft]: Setting user: SurveyTester
+[13:23:42] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3+5
+[13:23:42] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.251, for MC 1.21.1
+[13:23:43] [Render thread/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: []
+[13:23:43] [Render thread/INFO] [minecraft/ReloadableResourceManager]: Reloading ResourceManager: vanilla, mod_resources, mod/apricityui, mod/endfieldmenu, mod/neoforge, mod/endfieldmenuqa
+[13:23:43] [Worker-Main-13/INFO] [minecraft/UnihexProvider]: Found unifont_all_no_pua-15.1.05.hex, loading
+[13:23:43] [Worker-Main-6/INFO] [minecraft/UnihexProvider]: Found unifont_jp_patch-15.1.05.hex, loading
+[13:23:43] [Render thread/INFO] [co.si.ap.ApricityUI/]: Apricity external debugger listening at ws://127.0.0.1:25321/apricity
+[13:23:43] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI JS] KubeJS not loaded; page scripts are skipped (pages still render)
+[13:23:44] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI Font] font family unavailable, using fallback family=OreRegular
+[13:23:44] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI Font] font family unavailable, using fallback family=OreDisplay
+[13:23:44] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=.dialog-input::placeholder detail=unsupported pseudo-class=placeholder
+[13:23:44] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=.settings-number-input::-webkit-outer-spin-button detail=unsupported pseudo-class=webkit-outer-spin-button
+[13:23:44] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=.settings-number-input::-webkit-inner-spin-button detail=unsupported pseudo-class=webkit-inner-spin-button
+[13:23:44] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=.console-search::placeholder detail=unsupported pseudo-class=placeholder
+[13:23:44] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=.console-input::placeholder detail=unsupported pseudo-class=placeholder
+[13:23:44] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI Font] font family unavailable, using fallback family=inherit
+[13:23:44] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=#editor::selection detail=unsupported pseudo-class=selection
+[13:23:44] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=*::selection detail=unsupported pseudo-class=selection
+[13:23:44] [Render thread/INFO] [co.si.ap.ApricityUI/]: [AUI Document] create timing path=devtools/toast.html total=44ms firstGlobal=true firstPath=true
+[13:23:44] [Render thread/INFO] [co.si.ap.ne.ap.NetworkAutoRegistration/]: [NetworkAutoReg] Metadata scan found: 4 | added: 4 | skipped: 0
+[13:23:44] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:item.goat_horn.play
+[13:23:44] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[13:23:44] [Render thread/INFO] [mojang/Library]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[13:23:44] [Render thread/INFO] [minecraft/SoundEngine]: Sound engine started
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[13:23:45] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[13:23:45] [Render thread/WARN] [minecraft/ShaderInstance]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[13:23:45] [Render thread/INFO] [ne.ne.ne.cl.en.an.js.AnimationLoader/]: Loaded 0 entity animations
+[13:23:45] [Render thread/INFO] [co.si.ap.ApricityUI/]: [AUI Layout] first commit path=devtools/toast.html generation=1 elements=9 total=31ms
+[13:23:48] [Render thread/INFO] [minecraft/RecipeManager]: Loaded 1290 recipes
+[13:23:48] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 1399 advancements
+[13:23:48] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.21.1
+[13:23:48] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[13:23:49] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[13:23:49] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: 准备生成区域中：0%
+[13:23:49] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[13:23:49] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 248 ms
+[13:23:49] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 6, from 10
+[13:23:49] [Server thread/INFO] [minecraft/IntegratedServer]: Changing simulation distance to 5, from 0
+[13:23:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] started fresh isolated test world
+[13:23:49] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] unsupported property ignored property=transition-timing-function value=ease-in
+[13:23:50] [Server thread/INFO] [minecraft/PlayerList]: SurveyTester[local:E:03199768] logged in with entity id 53 at (13.5, 70.0, 89.5)
+[13:23:50] [Server thread/INFO] [minecraft/MinecraftServer]: SurveyTester加入了游戏
+[13:23:50] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 2 advancements
+[13:23:52] [Render thread/INFO] [co.si.ap.ApricityUI/]: [AUI Document] create timing path=endfield/host.html total=13ms firstGlobal=false firstPath=true
+[13:23:52] [Render thread/INFO] [co.si.ap.ApricityUI/]: [AUI Layout] first commit path=endfield/host.html generation=1 elements=4 total=1ms
+[13:23:58] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:23:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:23:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:23:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:24:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS singleplayer pauses
+[13:24:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS active AUI document receives actual input
+[13:24:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] metrics {"renderer":"HTML / AUI input + native terrain","initMs":1.4092,"closeMs":0.0,"exitAnimationMs":0.0,"firstDrawMs":194.8051,"viewId":2305473668016,"gameFps":117,"phase":"idle","surveyRevision":1,"epoch":1,"backgroundBackend":"live-gpu-shader","backgroundFrames":444,"frameP95Ms":12.3267,"browser":{"width":1920,"height":1080,"completeFrames":260,"totalFrames":262,"discardedIncomplete":0,"losslessCapture":false,"portalProjection":true,"keyedBackground":true,"backend":"browser-compositor","uploadMs":0.8323,"stream":{"connected":true,"streaming":true,"received":292,"coalesced":25,"duplicateImages":3,"decodeMs":13.7217,"incomingFps":75.4758136811611},"sourceAgeMs":42.6240234375,"htmlPresentedFps":68.29576951744107,"htmlFrameP95Ms":27.2201},"page":{"ready":true,"active":true,"closing":false,"epoch":1,"yaw":0,"tilt":0.95,"zoom":1.45,"width":1920,"height":1080,"map":{"x":1001.6165466308594,"y":583.7083435058594},"right":{"x":1614.9920043945312,"y":301.7800750732422,"hit":true,"visible":true},"tileY":222.812255859375,"camera":"matrix3d(0.999848, -0.0174524, 0, 0, 0.0163999, 0.93955, 0.34202, 0, -0.00596907, -0.341968, 0.939693, 0, 29, -40, 0, 1)","backgroundBackend":"live-gpu-shader","controls":{"map-reset":{"x":777.6072265625,"y":893.4152709960938,"hit":true,"visible":true},"refresh":{"x":1098.4345947265624,"y":849.3052001953125,"hit":true,"visible":true},"settings":{"x":1614.9920043945312,"y":301.7800750732422,"hit":true,"visible":true},"view-reset":{"x":1679.2156982421875,"y":429.9967498779297,"hit":true,"visible":true},"resume":{"x":1827.9690551757812,"y":62.615962982177734,"hit":true,"visible":true},"inventory":{"x":231.70431518554688,"y":438.55308532714844,"hit":true,"visible":true},"advancements":{"x":202.16452026367188,"y":626.0195922851562,"hit":true,"visible":true},"stats":{"x":218.19476318359375,"y":779.6561889648438,"hit":true,"visible":true},"quit":{"x":129.39515686035156,"y":913.2535400390625,"hit":true,"visible":true}},"inputs":[],"errors":[]},"capture":"ready=1 nav=1 capture=8 done=4 rejected=4 stale=0 decodeFail=0 bytes=14444 roundTrip=310ms decode=0ms period=16ms loop=120Hz fps=0 cmd=1/1ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=32/8100KB/32r read=0/0KB/0r full=1 deferred=0 resync=0 free=3098KB | "}
+[13:24:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS action exists settings
+[13:24:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] click settings 538.3307,100.59337
+[13:24:02] [IO-Worker-4/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-01-1080.png
+[13:24:06] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS real callback settings
+[13:24:10] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS settings returns
+[13:24:10] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS action exists advancements
+[13:24:10] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] click advancements 67.97665,209.17508
+[13:24:14] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS real callback advancements
+[13:24:18] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS action exists stats
+[13:24:18] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] click stats 72.19227,259.55875
+[13:24:18] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:24:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:24:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:24:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:24:22] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS real callback statistics
+[13:24:26] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS action exists inventory
+[13:24:26] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] click inventory 75.64391,144.20952
+[13:24:30] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS real callback inventory
+[13:24:30] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:24:30] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:24:30] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:24:30] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:24:38] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS real map drag and wheel
+[13:24:38] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS action exists map-reset
+[13:24:38] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] click map-reset 259.17917,297.6621
+[13:24:38] [IO-Worker-2/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-02-map.png
+[13:24:42] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS map reset
+[13:24:42] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS action exists quit
+[13:24:42] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] click quit 39.72772,302.67355
+[13:24:46] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS quit confirmation
+[13:24:50] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] stable metrics {"renderer":"HTML / AUI input + native terrain","initMs":0.267,"closeMs":0.6907,"exitAnimationMs":0.0,"firstDrawMs":101.6503,"viewId":2305473668016,"gameFps":117,"phase":"idle","surveyRevision":2,"epoch":7,"backgroundBackend":"live-gpu-shader","backgroundFrames":3764,"frameP95Ms":9.9578,"browser":{"width":1920,"height":1080,"completeFrames":284,"totalFrames":2306,"discardedIncomplete":0,"losslessCapture":false,"portalProjection":true,"keyedBackground":true,"backend":"browser-compositor","uploadMs":1.0376,"stream":{"connected":true,"streaming":true,"received":2515,"coalesced":201,"duplicateImages":6,"decodeMs":10.6505,"incomingFps":79.04425223297542},"sourceAgeMs":48.602783203125,"htmlPresentedFps":72.89397584092731,"htmlFrameP95Ms":25.7813},"page":{"ready":true,"active":true,"closing":false,"epoch":7,"yaw":0,"tilt":0.95,"zoom":1.45,"width":1920,"height":1080,"map":{"x":995.2416381835938,"y":592.2783508300781},"right":{"x":1608.580810546875,"y":310.8634338378906,"hit":true,"visible":true},"tileY":234.49575805664062,"camera":"matrix3d(0.999718, -0.00866664, -0.0221248, 0, 0.0162212, 0.929313, 0.368936, 0, 0.0173634, -0.369191, 0.929192, 0, 29, -40, 0, 1)","backgroundBackend":"live-gpu-shader","controls":{"map-reset":{"x":774.8225830078125,"y":891.396923828125,"hit":true,"visible":true},"refresh":{"x":1098.0209716796876,"y":847.83896484375,"hit":true,"visible":true},"settings":{"x":1608.580810546875,"y":310.8634338378906,"hit":true,"visible":true},"view-reset":{"x":1673.0359497070312,"y":436.6652374267578,"hit":true,"visible":true},"resume":{"x":1813.6597290039062,"y":81.78404235839844,"hit":true,"visible":true},"inventory":{"x":226.52256774902344,"y":430.5765380859375,"hit":true,"visible":true},"advancements":{"x":194.03013610839844,"y":617.4820556640625,"hit":true,"visible":true},"stats":{"x":208.44578552246094,"y":771.8829345703125,"hit":true,"visible":true},"quit":{"x":115.50947570800781,"y":906.3408508300781,"hit":true,"visible":true}},"inputs":[{"type":"pointerup","x":203,"y":627,"target":"advancements"},{"type":"pointerdown","x":216,"y":778,"target":"stats"},{"type":"pointerup","x":216,"y":778,"target":"stats"},{"type":"pointerdown","x":226,"y":432,"target":"inventory"},{"type":"pointerup","x":226,"y":432,"target":"inventory"},{"type":"pointerdown","x":1001,"y":583,"target":"DIV"},{"type":"pointerup","x":1256,"y":643,"target":"DIV"},{"type":"wheel","x":1256,"y":643,"target":"DIV"},{"type":"pointerdown","x":777,"y":892,"target":"map-reset"},{"type":"pointerup","x":777,"y":892,"target":"map-reset"},{"type":"pointerdown","x":119,"y":908,"target":"quit"},{"type":"pointerup","x":119,"y":908,"target":"quit"}],"errors":[]},"capture":"ready=1 nav=1 capture=8 done=4 rejected=4 stale=0 decodeFail=0 bytes=14444 roundTrip=310ms decode=0ms period=16ms loop=120Hz fps=0 cmd=1/1ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=32/8100KB/32r read=0/0KB/0r full=1 deferred=0 resync=0 free=3098KB | "}
+[13:24:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS Esc closes after 520ms
+[13:24:54] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:24:54] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:24:54] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:24:54] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:24:58] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS reuses browser screen
+[13:25:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS action exists settings
+[13:25:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] click settings 360.19626,64.9714
+[13:25:02] [IO-Worker-1/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-03-720.png
+[13:25:06] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS input after resize
+[13:25:10] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS action exists resume
+[13:25:10] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] click resume 616.35425,11.224797
+[13:25:10] [IO-Worker-1/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-04-gui2.png
+[13:25:14] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS resume real input
+[13:25:18] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:25:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:25:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:25:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:25:18] [IO-Worker-1/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-1-00.png
+[13:25:18] [IO-Worker-3/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-1-01.png
+[13:25:19] [IO-Worker-5/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-1-03.png
+[13:25:19] [IO-Worker-2/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-1-02.png
+[13:25:19] [IO-Worker-4/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-1-04.png
+[13:25:19] [IO-Worker-1/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-1-05.png
+[13:25:19] [IO-Worker-3/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-1-06.png
+[13:25:19] [IO-Worker-4/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-1-07.png
+[13:25:22] [IO-Worker-4/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-2-00.png
+[13:25:22] [IO-Worker-3/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-2-01.png
+[13:25:22] [IO-Worker-1/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-2-02.png
+[13:25:23] [IO-Worker-2/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-2-03.png
+[13:25:23] [IO-Worker-5/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-2-04.png
+[13:25:23] [IO-Worker-6/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-2-05.png
+[13:25:23] [IO-Worker-7/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-2-06.png
+[13:25:23] [IO-Worker-8/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-film-2-07.png
+[13:25:26] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS film exit closes
+[13:25:26] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] film lifecycle {"renderer":"HTML / AUI input + native terrain","initMs":0.6365,"closeMs":0.4487,"exitAnimationMs":538.9745,"firstDrawMs":132.2667,"viewId":2305473668016,"gameFps":118,"phase":"hidden","surveyRevision":4,"epoch":10,"backgroundBackend":"live-gpu-shader","backgroundFrames":5743,"frameP95Ms":14.0885,"browser":{"width":1920,"height":1080,"completeFrames":261,"totalFrames":3513,"discardedIncomplete":0,"losslessCapture":false,"portalProjection":true,"keyedBackground":true,"backend":"browser-compositor","uploadMs":1.1133,"stream":{"connected":true,"streaming":false,"received":3911,"coalesced":390,"duplicateImages":7,"decodeMs":7.305,"incomingFps":68.3190501921274},"sourceAgeMs":46.93310546875,"htmlPresentedFps":60.322436881676175,"htmlFrameP95Ms":34.5629},"page":{"ready":true,"active":true,"closing":true,"epoch":10,"yaw":0,"tilt":0.95,"zoom":1.45,"width":1920,"height":1080,"map":{"x":994.6340026855469,"y":542.8236083984375},"right":{"x":1519.638671875,"y":308.1809387207031,"hit":true,"visible":true},"tileY":229.44912719726562,"camera":"matrix3d(0.99971, -0.00981103, -0.0219736, 0, 0.0164849, 0.944422, 0.328323, 0, 0.0175311, -0.32859, 0.94431, 0, 29, -40, 0, 1)","backgroundBackend":"live-gpu-shader","controls":{"map-reset":{"x":1651.731201171875,"y":300.7818145751953,"hit":true,"visible":true},"refresh":{"x":1715.7308349609375,"y":428.52647399902344,"hit":true,"visible":true},"settings":{"x":1519.638671875,"y":308.1809387207031,"hit":true,"visible":true},"view-reset":{"x":1579.8159790039062,"y":437.1068878173828,"hit":true,"visible":true},"resume":{"x":1827.079833984375,"y":71.9083137512207,"hit":false,"visible":false},"inventory":{"x":233.27969360351562,"y":415.68853759765625,"hit":false,"visible":false},"advancements":{"x":433.087158203125,"y":84.34525680541992,"hit":true,"visible":true},"stats":{"x":550.5032653808594,"y":83.86381912231445,"hit":true,"visible":true},"quit":{"x":129.1160659790039,"y":923.3838806152344,"hit":true,"visible":true}},"inputs":[{"type":"pointerup","x":226,"y":432,"target":"inventory"},{"type":"pointerdown","x":1001,"y":583,"target":"DIV"},{"type":"pointerup","x":1256,"y":643,"target":"DIV"},{"type":"wheel","x":1256,"y":643,"target":"DIV"},{"type":"pointerdown","x":777,"y":892,"target":"map-reset"},{"type":"pointerup","x":777,"y":892,"target":"map-reset"},{"type":"pointerdown","x":119,"y":908,"target":"quit"},{"type":"pointerup","x":119,"y":908,"target":"quit"},{"type":"pointerdown","x":1079,"y":194,"target":"settings"},{"type":"pointerup","x":1079,"y":194,"target":"DIV"},{"type":"pointerdown","x":1232,"y":22,"target":"resume"},{"type":"pointerup","x":1232,"y":22,"target":"resume"}],"errors":[]},"capture":"ready=1 nav=1 capture=8 done=4 rejected=4 stale=0 decodeFail=0 bytes=14444 roundTrip=310ms decode=0ms period=16ms loop=119Hz fps=0 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=32/8100KB/32r read=0/0KB/0r full=1 deferred=0 resync=0 free=3098KB | "}
+[13:25:26] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:25:26] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:25:26] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:25:26] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:25:34] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS consecutive exit 2
+[13:25:34] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:25:34] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:25:34] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:25:34] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:25:42] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS consecutive exit 3
+[13:25:42] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:25:42] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:25:42] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:25:42] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:25:46] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] final hybrid metrics {"renderer":"HTML / AUI input + native terrain","initMs":0.4224,"closeMs":0.3196,"exitAnimationMs":521.3202,"firstDrawMs":83.9802,"viewId":2305473668016,"gameFps":118,"phase":"idle","surveyRevision":7,"epoch":13,"backgroundBackend":"live-gpu-shader","backgroundFrames":7257,"frameP95Ms":10.2644,"browser":{"width":1920,"height":1080,"completeFrames":278,"totalFrames":4410,"discardedIncomplete":0,"losslessCapture":false,"portalProjection":true,"keyedBackground":true,"backend":"browser-compositor","uploadMs":0.9767,"stream":{"connected":true,"streaming":true,"received":4881,"coalesced":458,"duplicateImages":10,"decodeMs":11.4471,"incomingFps":76.19760973813072},"sourceAgeMs":41.94287109375,"htmlPresentedFps":70.97912240080603,"htmlFrameP95Ms":26.2336},"page":{"ready":true,"active":true,"closing":false,"epoch":13,"yaw":0,"tilt":0.95,"zoom":1.45,"width":1920,"height":1080,"map":{"x":994.9609069824219,"y":582.7350616455078},"right":{"x":1611.4775390625,"y":307.54100036621094,"hit":true,"visible":true},"tileY":228.90945434570312,"camera":"matrix3d(0.99971, -0.00981103, -0.0219736, 0, 0.0164849, 0.944422, 0.328323, 0, 0.0175311, -0.32859, 0.94431, 0, 29, -40, 0, 1)","backgroundBackend":"live-gpu-shader","controls":{"map-reset":{"x":777.4671875,"y":895.4774047851563,"hit":true,"visible":true},"refresh":{"x":1096.6074951171875,"y":851.8918701171875,"hit":true,"visible":true},"settings":{"x":1611.4775390625,"y":307.54100036621094,"hit":true,"visible":true},"view-reset":{"x":1673.9871826171875,"y":436.29730224609375,"hit":true,"visible":true},"resume":{"x":1822.3775024414062,"y":70.6445083618164,"hit":true,"visible":true},"inventory":{"x":225.29574584960938,"y":431.8741149902344,"hit":true,"visible":true},"advancements":{"x":196.38868713378906,"y":621.899169921875,"hit":true,"visible":true},"stats":{"x":213.6898193359375,"y":777.4991149902344,"hit":true,"visible":true},"quit":{"x":124.232666015625,"y":912.1255493164062,"hit":true,"visible":true}},"inputs":[{"type":"pointerup","x":226,"y":432,"target":"inventory"},{"type":"pointerdown","x":1001,"y":583,"target":"DIV"},{"type":"pointerup","x":1256,"y":643,"target":"DIV"},{"type":"wheel","x":1256,"y":643,"target":"DIV"},{"type":"pointerdown","x":777,"y":892,"target":"map-reset"},{"type":"pointerup","x":777,"y":892,"target":"map-reset"},{"type":"pointerdown","x":119,"y":908,"target":"quit"},{"type":"pointerup","x":119,"y":908,"target":"quit"},{"type":"pointerdown","x":1079,"y":194,"target":"settings"},{"type":"pointerup","x":1079,"y":194,"target":"DIV"},{"type":"pointerdown","x":1232,"y":22,"target":"resume"},{"type":"pointerup","x":1232,"y":22,"target":"resume"}],"errors":[]},"capture":"ready=1 nav=1 capture=8 done=4 rejected=4 stale=0 decodeFail=0 bytes=14444 roundTrip=310ms decode=0ms period=16ms loop=120Hz fps=0 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=32/8100KB/32r read=0/0KB/0r full=1 deferred=0 resync=0 free=3098KB | "}
+[13:25:50] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS right list real wheel
+[13:25:54] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS right list drag without accidental action
+[13:25:58] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS original mouse parallax
+[13:26:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS close after list interaction
+[13:26:02] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:26:02] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:26:02] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:26:02] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:26:10] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS map changed before view reset
+[13:26:10] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS action exists view-reset
+[13:26:10] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] click view-reset 559.84216,143.17505
+[13:26:14] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS view reset real input
+[13:26:14] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS action exists refresh
+[13:26:14] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] click refresh 366.14487,283.10175
+[13:26:18] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS refresh terrain real input
+[13:26:18] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS one browser retained across all checks
+[13:26:22] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS final close
+[13:26:22] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] hidden capture {"renderer":"HTML / AUI input + native terrain","initMs":0.3671,"closeMs":0.5277,"exitAnimationMs":521.1696,"firstDrawMs":84.844,"viewId":2305473668016,"gameFps":118,"phase":"hidden","surveyRevision":9,"epoch":14,"backgroundBackend":"live-gpu-shader","backgroundFrames":10648,"frameP95Ms":10.2796,"browser":{"width":1920,"height":1080,"completeFrames":1135,"totalFrames":6395,"discardedIncomplete":0,"losslessCapture":false,"portalProjection":true,"keyedBackground":true,"backend":"browser-compositor","uploadMs":0.644,"stream":{"connected":true,"streaming":false,"received":7020,"coalesced":613,"duplicateImages":11,"decodeMs":4.1027,"incomingFps":71.54717577808523},"sourceAgeMs":55.489990234375,"htmlPresentedFps":68.96134466692153,"htmlFrameP95Ms":26.0349},"page":{"ready":true,"active":true,"closing":true,"epoch":14,"yaw":0,"tilt":0.95,"zoom":1.45,"width":1920,"height":1080,"map":{"x":993.9308166503906,"y":543.1029357910156},"right":{"x":1521.6983642578125,"y":302.3317413330078,"hit":true,"visible":true},"tileY":224.20217895507812,"camera":"matrix3d(0.999733, -0.0211177, 0.0093416, 0, 0.0162457, 0.930716, 0.36538, 0, -0.0164104, -0.365131, 0.930811, 0, 29, -40, 0, 1)","backgroundBackend":"live-gpu-shader","controls":{"map-reset":{"x":1656.0986938476562,"y":292.9277801513672,"hit":true,"visible":true},"refresh":{"x":1723.5903930664062,"y":418.53956604003906,"hit":true,"visible":true},"settings":{"x":1521.6983642578125,"y":302.3317413330078,"hit":true,"visible":true},"view-reset":{"x":1584.64794921875,"y":428.9191436767578,"hit":true,"visible":true},"resume":{"x":1831.2011108398438,"y":64.57614517211914,"hit":false,"visible":false},"inventory":{"x":243.07467651367188,"y":425.72630310058594,"hit":false,"visible":false},"advancements":{"x":441.9027099609375,"y":103.56539916992188,"hit":true,"visible":true},"stats":{"x":556.2812805175781,"y":100.8770980834961,"hit":true,"visible":true},"quit":{"x":132.63480377197266,"y":923.0489501953125,"hit":true,"visible":true}},"inputs":[{"type":"pointerup","x":1232,"y":22,"target":"resume"},{"type":"wheel","x":1611,"y":307,"target":"settings"},{"type":"pointerdown","x":1587,"y":237,"target":"settings"},{"type":"pointerup","x":1587,"y":132,"target":"DIV"},{"type":"keydown","key":"Escape","target":"settings"},{"type":"pointerdown","x":982,"y":573,"target":"DIV"},{"type":"pointerup","x":1117,"y":573,"target":"DIV"},{"type":"pointerdown","x":1679,"y":429,"target":"view-reset"},{"type":"pointerup","x":1679,"y":429,"target":"DIV"},{"type":"pointerdown","x":1098,"y":849,"target":"refresh"},{"type":"pointerup","x":1098,"y":849,"target":"refresh"},{"type":"keydown","key":"Escape","target":"BODY"}],"errors":[]},"capture":"ready=1 nav=1 capture=8 done=4 rejected=4 stale=0 decodeFail=0 bytes=14444 roundTrip=310ms decode=0ms period=16ms loop=120Hz fps=0 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=32/8100KB/32r read=0/0KB/0r full=1 deferred=0 resync=0 free=3098KB | "}
+[13:26:22] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS hidden compositor capture stops
+[13:26:22] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:26:22] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:26:22] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:26:22] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:26:26] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS compositor stream resumes
+[13:26:30] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS interrupted stream falls back to AUI capture
+[13:26:30] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] fallback metrics {"renderer":"HTML / AUI input + native terrain","initMs":0.3892,"closeMs":0.5277,"exitAnimationMs":521.1696,"firstDrawMs":94.6848,"viewId":2305473668016,"gameFps":118,"phase":"idle","surveyRevision":10,"epoch":15,"backgroundBackend":"live-gpu-shader","backgroundFrames":11577,"frameP95Ms":9.971,"browser":{"width":1920,"height":1080,"completeFrames":129,"totalFrames":6787,"discardedIncomplete":0,"losslessCapture":false,"portalProjection":true,"keyedBackground":true,"backend":"aui-capture","uploadMs":0.644,"stream":{"connected":false,"streaming":false,"received":7305,"coalesced":634,"duplicateImages":12,"decodeMs":11.2818,"incomingFps":72.12890011481718},"sourceAgeMs":50.0478515625,"htmlPresentedFps":32.82378004908078,"htmlFrameP95Ms":51.4636},"page":{"ready":true,"active":true,"closing":false,"epoch":15,"yaw":0,"tilt":0.95,"zoom":1.45,"width":1920,"height":1080,"map":{"x":1004.7360229492188,"y":588.2858123779297},"right":{"x":1615.1144409179688,"y":300.2468566894531,"hit":true,"visible":true},"tileY":222.1165771484375,"camera":"matrix3d(0.999733, -0.0211177, 0.0093416, 0, 0.0162457, 0.930716, 0.36538, 0, -0.0164104, -0.365131, 0.930811, 0, 29, -40, 0, 1)","backgroundBackend":"live-gpu-shader","controls":{"map-reset":{"x":776.5781005859375,"y":890.5748901367188,"hit":true,"visible":true},"refresh":{"x":1099.83720703125,"y":846.113037109375,"hit":true,"visible":true},"settings":{"x":1615.1144409179688,"y":300.2468566894531,"hit":true,"visible":true},"view-reset":{"x":1680.9254760742188,"y":426.83558654785156,"hit":true,"visible":true},"resume":{"x":1826.374267578125,"y":63.431739807128906,"hit":true,"visible":true},"inventory":{"x":235.05152893066406,"y":441.5008087158203,"hit":true,"visible":true},"advancements":{"x":203.74835205078125,"y":626.5632934570312,"hit":true,"visible":true},"stats":{"x":218.0259246826172,"y":778.8143615722656,"hit":true,"visible":true},"quit":{"x":128.0648956298828,"y":911.95458984375,"hit":true,"visible":true}},"inputs":[{"type":"pointerup","x":1232,"y":22,"target":"resume"},{"type":"wheel","x":1611,"y":307,"target":"settings"},{"type":"pointerdown","x":1587,"y":237,"target":"settings"},{"type":"pointerup","x":1587,"y":132,"target":"DIV"},{"type":"keydown","key":"Escape","target":"settings"},{"type":"pointerdown","x":982,"y":573,"target":"DIV"},{"type":"pointerup","x":1117,"y":573,"target":"DIV"},{"type":"pointerdown","x":1679,"y":429,"target":"view-reset"},{"type":"pointerup","x":1679,"y":429,"target":"DIV"},{"type":"pointerdown","x":1098,"y":849,"target":"refresh"},{"type":"pointerup","x":1098,"y":849,"target":"refresh"},{"type":"keydown","key":"Escape","target":"BODY"}],"errors":[]},"capture":"ready=1 nav=1 capture=139 done=133 rejected=4 stale=0 decodeFail=0 bytes=198459 roundTrip=64ms decode=10ms period=18ms loop=709Hz fps=30 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=4160/1053000KB/4160r read=0/0KB/0r full=130 deferred=0 resync=0 free=11200KB | "}
+[13:26:30] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS action exists settings
+[13:26:30] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] click settings 538.37146,100.08228
+[13:26:34] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS real input after capture fallback
+[13:26:42] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS world continues when pause disabled
+[13:26:42] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS running world frosted background renders each frame on GPU
+[13:26:42] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:26:42] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:26:42] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:26:42] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:26:46] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS fallback exit closes
+[13:26:46] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: SurveyTester lost connection: 连接中断
+[13:26:46] [Server thread/INFO] [minecraft/MinecraftServer]: SurveyTester退出了游戏
+[13:26:46] [Server thread/INFO] [minecraft/ServerCommonPacketListenerImpl]: Stopping singleplayer server as player logged out
+[13:26:46] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[13:26:46] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[13:26:46] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[13:26:46] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:26:46] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:26:46] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:26:46] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (endfield-qa): All chunks are saved
+[13:26:46] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:26:46] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:26:46] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:26:47] [Render thread/INFO] [minecraft/RecipeManager]: Loaded 1290 recipes
+[13:26:47] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 1399 advancements
+[13:26:47] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.21.1
+[13:26:47] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[13:26:49] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[13:26:49] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: 准备生成区域中：0%
+[13:26:49] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[13:26:49] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 180 ms
+[13:26:49] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 6, from 10
+[13:26:49] [Server thread/INFO] [minecraft/IntegratedServer]: Changing simulation distance to 5, from 0
+[13:26:49] [Server thread/INFO] [minecraft/PlayerList]: SurveyTester[local:E:0a10e3f1] logged in with entity id 269 at (13.5, 70.0, 89.5)
+[13:26:49] [Server thread/INFO] [minecraft/MinecraftServer]: SurveyTester加入了游戏
+[13:26:49] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 2 advancements
+[13:26:51] [Render thread/INFO] [co.si.ap.ApricityUI/]: [AUI Layout] first commit path=endfield/host.html generation=1 elements=4 total=1ms
+[13:26:53] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[13:26:53] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:26:53] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:26:53] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:26:57] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS new world creates a new browser session
+[13:26:57] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS compositor reconnects after rejoining world
+[13:26:57] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] rejoin metrics {"renderer":"HTML / AUI input + native terrain","initMs":0.4469,"closeMs":0.0,"exitAnimationMs":0.0,"firstDrawMs":191.9311,"viewId":2305591578864,"gameFps":114,"phase":"idle","surveyRevision":1,"epoch":1,"backgroundBackend":"live-gpu-shader","backgroundFrames":458,"frameP95Ms":11.0125,"browser":{"width":1920,"height":1080,"completeFrames":260,"totalFrames":263,"discardedIncomplete":0,"losslessCapture":false,"portalProjection":true,"keyedBackground":true,"backend":"browser-compositor","uploadMs":1.0066,"stream":{"connected":true,"streaming":true,"received":296,"coalesced":32,"duplicateImages":0,"decodeMs":12.5045,"incomingFps":77.41576624335187},"sourceAgeMs":52.23291015625,"htmlPresentedFps":68.04959559622954,"htmlFrameP95Ms":26.151},"page":{"ready":true,"active":true,"closing":false,"epoch":1,"yaw":0,"tilt":0.95,"zoom":1.45,"width":1920,"height":1080,"map":{"x":1001.6165466308594,"y":583.7083435058594},"right":{"x":1614.9920043945312,"y":301.7800750732422,"hit":true,"visible":true},"tileY":222.812255859375,"camera":"matrix3d(0.999848, -0.0174524, 0, 0, 0.0163999, 0.93955, 0.34202, 0, -0.00596907, -0.341968, 0.939693, 0, 29, -40, 0, 1)","backgroundBackend":"live-gpu-shader","controls":{"map-reset":{"x":777.6072265625,"y":893.4152709960938,"hit":true,"visible":true},"refresh":{"x":1098.4345947265624,"y":849.3052001953125,"hit":true,"visible":true},"settings":{"x":1614.9920043945312,"y":301.7800750732422,"hit":true,"visible":true},"view-reset":{"x":1679.2156982421875,"y":429.9967498779297,"hit":true,"visible":true},"resume":{"x":1827.9690551757812,"y":62.615962982177734,"hit":true,"visible":true},"inventory":{"x":231.70431518554688,"y":438.55308532714844,"hit":true,"visible":true},"advancements":{"x":202.16452026367188,"y":626.0195922851562,"hit":true,"visible":true},"stats":{"x":218.19476318359375,"y":779.6561889648438,"hit":true,"visible":true},"quit":{"x":129.39515686035156,"y":913.2535400390625,"hit":true,"visible":true}},"inputs":[],"errors":[]},"capture":"ready=1 nav=1 capture=9 done=4 rejected=5 stale=0 decodeFail=0 bytes=14444 roundTrip=286ms decode=0ms period=17ms loop=120Hz fps=0 cmd=0/0ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1080 format=jpeg window=1920x1080 | channel=1920x1080 arena=11200KB pub=32/8100KB/32r read=0/0KB/0r full=1 deferred=0 resync=0 free=3098KB | "}
+[13:26:57] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] ALL HYBRID INPUT CHECKS PASSED
+[13:26:57] [Render thread/INFO] [minecraft/Minecraft]: Stopping!
+[13:26:57] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: SurveyTester lost connection: 连接中断
+[13:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: SurveyTester退出了游戏
+[13:26:57] [Server thread/INFO] [minecraft/ServerCommonPacketListenerImpl]: Stopping singleplayer server as player logged out
+[13:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[13:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[13:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[13:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[13:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[13:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[13:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (endfield-qa): All chunks are saved
+[13:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:26:57] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[1025/132658.121:ERROR:ui\gfx\win\window_impl.cc:172] Failed to unregister class Chrome_WidgetWin_0. Error = 1411
+
+BUILD SUCCESSFUL in 3m 26s
+9 actionable tasks: 2 executed, 7 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.5.1/userguide/configuration_cache_enabling.html

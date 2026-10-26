@@ -1,0 +1,199 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :compileQaJava
+> Task :downloadAssets UP-TO-DATE
+> Task :writeClientLegacyClasspath UP-TO-DATE
+> Task :prepareClientRun
+> Task :processQaResources UP-TO-DATE
+> Task :qaClasses
+
+> Task :runClient
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[17:27:27] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.251, --assetIndex, 17, --assetsDir, C:\\Users\\PureNeko\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.44, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.251, --fml.neoFormVersion, 20240808.144430, --width, 1920, --height, 1080, --username, SurveyTester]
+[17:27:27] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.11+9-LTS-jvmci-23.1-b92
+[17:27:27] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[17:27:27] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[17:27:27] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[17:27:28] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[17:27:28] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/PureNeko/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[17:27:28] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 581.80, NVIDIA Corporation
+[17:27:28] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[17:27:28] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		ApricityUI 1.2.8 (apricityui)
+		Endfield Menu 1.5.0 (endfieldmenu)
+		Endfield Menu Runtime QA (development only) 1.0.0 (endfieldmenuqa)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.251 (neoforge)
+[17:27:29] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[17:27:29] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.251, --gameDir, ., --assetsDir, C:\Users\PureNeko\.gradle\caches\neoformruntime\assets, --assetIndex, 17, --width, 1920, --height, 1080, --username, SurveyTester]
+[17:27:30] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 291 milliseconds
+[17:27:30] [pool-9-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[17:27:33] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:27:33] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:27:33] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:27:33] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:27:33] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:27:33] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/E:/ModProject/endfield-menu/build/moddev/artifacts/neoforge-21.1.251.jar%23190!/assets/.mcassetsroot' uses unexpected schema
+[17:27:33] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/E:/ModProject/endfield-menu/build/moddev/artifacts/neoforge-21.1.251.jar%23190!/data/.mcassetsroot' uses unexpected schema
+[17:27:33] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:27:33] [Render thread/INFO] [minecraft/Minecraft]: Setting user: SurveyTester
+[17:27:33] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3+5
+[17:27:34] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.251, for MC 1.21.1
+[17:27:34] [Render thread/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: []
+[17:27:34] [Render thread/INFO] [minecraft/ReloadableResourceManager]: Reloading ResourceManager: vanilla, mod_resources, mod/apricityui, mod/endfieldmenu, mod/neoforge, mod/endfieldmenuqa
+[17:27:34] [Worker-Main-13/INFO] [minecraft/UnihexProvider]: Found unifont_all_no_pua-15.1.05.hex, loading
+[17:27:34] [Worker-Main-11/INFO] [minecraft/UnihexProvider]: Found unifont_jp_patch-15.1.05.hex, loading
+[17:27:35] [Render thread/INFO] [co.si.ap.ApricityUI/]: Apricity external debugger listening at ws://127.0.0.1:25321/apricity
+[17:27:35] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI JS] KubeJS not loaded; page scripts are skipped (pages still render)
+[17:27:35] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI Font] font family unavailable, using fallback family=OreDisplay
+[17:27:35] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI Font] font family unavailable, using fallback family=OreRegular
+[17:27:35] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=.dialog-input::placeholder detail=unsupported pseudo-class=placeholder
+[17:27:35] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=.settings-number-input::-webkit-outer-spin-button detail=unsupported pseudo-class=webkit-outer-spin-button
+[17:27:35] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=.settings-number-input::-webkit-inner-spin-button detail=unsupported pseudo-class=webkit-inner-spin-button
+[17:27:35] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=.console-search::placeholder detail=unsupported pseudo-class=placeholder
+[17:27:35] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=.console-input::placeholder detail=unsupported pseudo-class=placeholder
+[17:27:35] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI Font] font family unavailable, using fallback family=inherit
+[17:27:35] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=#editor::selection detail=unsupported pseudo-class=selection
+[17:27:35] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] selector diagnostic kind=pseudo selector=*::selection detail=unsupported pseudo-class=selection
+[17:27:35] [Render thread/INFO] [co.si.ap.ApricityUI/]: [AUI Document] create timing path=devtools/toast.html total=43ms firstGlobal=true firstPath=true
+[17:27:36] [Render thread/INFO] [co.si.ap.ne.ap.NetworkAutoRegistration/]: [NetworkAutoReg] Metadata scan found: 4 | added: 4 | skipped: 0
+[17:27:36] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:item.goat_horn.play
+[17:27:36] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[17:27:36] [Render thread/INFO] [mojang/Library]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[17:27:36] [Render thread/INFO] [minecraft/SoundEngine]: Sound engine started
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[17:27:36] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[17:27:36] [Render thread/WARN] [minecraft/ShaderInstance]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[17:27:36] [Render thread/INFO] [ne.ne.ne.cl.en.an.js.AnimationLoader/]: Loaded 0 entity animations
+[17:27:39] [Download-1/WARN] [mojang/YggdrasilMinecraftSessionService]: Couldn't look up profile properties for 4a796167-43e8-3aec-9428-06045c08d62f
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://sessionserver.mojang.com/session/minecraft/profile/4a79616743e83aec942806045c08d62f?unsigned=false due to Connect timed out
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar%23118!/:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar%23118!/:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfileUncached(YggdrasilMinecraftSessionService.java:201) ~[authlib-6.0.54.jar%23118!/:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfile(YggdrasilMinecraftSessionService.java:171) ~[authlib-6.0.54.jar%23118!/:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.lambda$new$1(Minecraft.java:426) ~[neoforge-21.1.251.jar%23190!/:?] {re:classloading,pl:runtimedistcleaner:A,re:mixin,pl:runtimedistcleaner:A}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?] {}
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?] {}
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?] {}
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?] {}
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?] {}
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?] {}
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?] {}
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1298) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1139) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?] {}
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar%23118!/:?] {}
+	... 8 more
+[17:27:39] [Yggdrasil Key Fetcher/ERROR] [mojang/YggdrasilServicesKeyInfo]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar%23118!/:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar%23118!/:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar%23118!/:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar%23118!/:?] {}
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?] {}
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?] {}
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?] {}
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?] {}
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?] {}
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?] {}
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?] {}
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?] {}
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?] {}
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1298) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1139) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?] {}
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?] {}
+	at MC-BOOTSTRAP/authlib@6.0.54/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar%23118!/:?] {}
+	... 9 more
+[17:27:39] [Render thread/INFO] [co.si.ap.ApricityUI/]: [AUI Layout] first commit path=devtools/toast.html generation=1 elements=9 total=25ms
+[17:27:39] [Render thread/INFO] [minecraft/RecipeManager]: Loaded 1290 recipes
+[17:27:39] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 1399 advancements
+[17:27:40] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.21.1
+[17:27:40] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[17:27:41] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[17:27:41] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: 准备生成区域中：0%
+[17:27:41] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[17:27:41] [progressListener/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 260 ms
+[17:27:41] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 6, from 10
+[17:27:41] [Server thread/INFO] [minecraft/IntegratedServer]: Changing simulation distance to 5, from 0
+[17:27:41] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] started fresh isolated test world
+[17:27:41] [Render thread/WARN] [co.si.ap.ApricityUI/]: [AUI CSS] unsupported property ignored property=transition-timing-function value=ease-in
+[17:27:41] [Server thread/INFO] [minecraft/PlayerList]: SurveyTester[local:E:b4821b8f] logged in with entity id 46 at (13.5, 70.0, 89.5)
+[17:27:41] [Server thread/INFO] [minecraft/MinecraftServer]: SurveyTester加入了游戏
+[17:27:42] [Render thread/WARN] [minecraft/ClientPacketListener]: Ignoring chat session from SurveyTester due to missing Services public key
+[17:27:42] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 2 advancements
+[17:27:43] [Render thread/INFO] [co.si.ap.ApricityUI/]: [AUI Document] create timing path=endfield/host.html total=14ms firstGlobal=false firstPath=true
+[17:27:43] [Render thread/INFO] [co.si.ap.ApricityUI/]: [AUI Layout] first commit path=endfield/host.html generation=1 elements=4 total=1ms
+[17:27:49] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[17:27:49] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[17:27:49] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[17:27:49] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[17:27:53] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS singleplayer pauses
+[17:27:53] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS active AUI document receives actual input
+[17:27:53] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] metrics {"renderer":"HTML / AUI input + native terrain","initMs":1.1182,"closeMs":0.0,"exitAnimationMs":0.0,"firstDrawMs":160.7144,"viewId":2150447063968,"gameFps":115,"phase":"idle","cacheEvicted":false,"surveyRevision":1,"epoch":1,"backgroundBackend":"live-gpu-shader","backgroundFrames":455,"frameP95Ms":12.2324,"browser":{"width":1920,"height":1080,"gpuTextureBytes":8785920,"receiverBytes":0,"completeFrames":126,"totalFrames":128,"discardedIncomplete":0,"losslessCapture":true,"portalProjection":true,"keyedBackground":false,"backend":"browser-compositor","uploadMs":0.7801,"domInputToUploadP50Ms":-1.0,"domInputToUploadP95Ms":-1.0,"stream":{"codec":"libspng-zlib-ng","nativeBufferBytes":19406848,"pooledBytes":0,"connected":true,"streaming":true,"received":137,"coalesced":6,"duplicateImages":0,"decodeMs":16.4724,"incomingFps":33.13051601130072},"sourceAgeMs":93.699951171875,"htmlPresentedFps":32.95958047991259,"htmlFrameP95Ms":60.4843},"page":{"ready":true,"active":true,"closing":false,"epoch":1,"yaw":0,"tilt":0.95,"zoom":1.45,"width":1920,"height":1080,"map":{"x":1001.6165466308594,"y":583.7083435058594},"right":{"x":1614.9920043945312,"y":301.7800750732422,"hit":true,"visible":true},"tileY":222.812255859375,"camera":"matrix3d(0.999848, -0.0174524, 0, 0, 0.0163999, 0.93955, 0.34202, 0, -0.00596907, -0.341968, 0.939693, 0, 29, -40, 0, 1)","backgroundBackend":"live-gpu-shader","controls":{"map-reset":{"x":777.6072265625,"y":893.4152709960938,"hit":true,"visible":true},"refresh":{"x":1098.4345947265624,"y":849.3052001953125,"hit":true,"visible":true},"settings":{"x":1614.9920043945312,"y":301.7800750732422,"hit":true,"visible":true},"view-reset":{"x":1679.2156982421875,"y":429.9967498779297,"hit":true,"visible":true},"resume":{"x":1827.9690551757812,"y":62.615962982177734,"hit":true,"visible":true},"inventory":{"x":231.70431518554688,"y":438.55308532714844,"hit":true,"visible":true},"advancements":{"x":202.16452026367188,"y":626.0195922851562,"hit":true,"visible":true},"stats":{"x":218.19476318359375,"y":779.6561889648438,"hit":true,"visible":true},"quit":{"x":129.39515686035156,"y":913.2535400390625,"hit":true,"visible":true}},"inputs":[],"errors":[]},"capture":"ready=1 nav=1 capture=6 done=4 rejected=2 stale=0 decodeFail=0 bytes=11621 roundTrip=290ms decode=0ms period=16ms loop=120Hz fps=0 cmd=1/1ms pending=0 dropped=0 coalesced=0 stream=0/0/0/0@0x0 raster=1920x1144 format=png window=1920x1144 | channel=1920x1144 arena=11776KB pub=34/8580KB/34r read=0/0KB/0r full=1 deferred=0 resync=0 free=3194KB | "}
+[17:27:53] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS smoke presents complete frames
+[17:27:53] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS smoke map projection
+[17:27:53] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS PNG uses real alpha without chroma key
+[17:27:53] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS PNG native decoder active
+[17:27:53] [Render thread/INFO] [minecraft/Minecraft]: Stopping!
+[17:27:53] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: SurveyTester lost connection: 连接中断
+[17:27:53] [Server thread/INFO] [minecraft/MinecraftServer]: SurveyTester退出了游戏
+[17:27:53] [Server thread/INFO] [minecraft/ServerCommonPacketListenerImpl]: Stopping singleplayer server as player logged out
+[17:27:53] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[17:27:53] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[17:27:53] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[17:27:54] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:overworld
+[17:27:54] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_nether
+[17:27:54] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Endfield Menu QA]'/minecraft:the_end
+[17:27:54] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (endfield-qa): All chunks are saved
+[17:27:54] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:27:54] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:27:54] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:27:54] [IO-Worker-5/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] 已将截图保存为hybrid-01-1080.png
+[1025/172754.568:ERROR:ui\gfx\win\window_impl.cc:172] Failed to unregister class Chrome_WidgetWin_0. Error = 1411
+
+BUILD SUCCESSFUL in 30s
+9 actionable tasks: 3 executed, 6 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.5.1/userguide/configuration_cache_enabling.html

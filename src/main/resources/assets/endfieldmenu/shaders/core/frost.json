@@ -1,0 +1,36 @@
+{
+  "vertex": "endfieldmenu:frost",
+  "fragment": "endfieldmenu:frost",
+  "attributes": [
+    "Position",
+    "UV0",
+    "Color"
+  ],
+  "samplers": [
+    {
+      "name": "Sampler0"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "Direction",
+      "type": "float",
+      "count": 2,
+      "values": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Finish",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

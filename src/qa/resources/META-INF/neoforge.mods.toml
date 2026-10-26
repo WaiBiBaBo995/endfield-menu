@@ -1,0 +1,7 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GPL-3.0-or-later"
+[[mods]]
+modId="endfieldmenuqa"
+version="1.0.0"
+displayName="Endfield Menu Runtime QA (development only)"

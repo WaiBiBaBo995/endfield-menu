@@ -1,0 +1,67 @@
+[16:16:44] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS Esc pause replacement
+[16:16:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS AUI resource document exists
+[16:16:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS singleplayer world is paused
+[16:16:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS original page exposes all Minecraft actions
+[16:16:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS original page has no script errors
+[16:16:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS real terrain and contours reach WebGL
+[16:16:49] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: settings
+[16:16:53] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS settings button
+[16:16:59] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS return from settings
+[16:16:59] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: advancements
+[16:17:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS advancements button
+[16:17:08] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS return from advancements
+[16:17:08] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: stats
+[16:17:11] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS statistics button
+[16:17:17] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS return from statistics
+[16:17:17] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: inventory
+[16:17:20] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS inventory button
+[16:17:30] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS drag and wheel change browser terrain view
+[16:17:30] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: map-reset
+[16:17:33] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS map reset restores rotation and zoom
+[16:17:33] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: refresh
+[16:17:33] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: quit
+[16:17:37] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS exit confirmation
+[16:17:42] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS cancel exit restores menu
+[16:17:42] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: resume
+[16:17:46] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS resume returns to game
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: map-reset
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: map-reset
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: refresh
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: refresh
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: settings
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: settings
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: view-reset
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: view-reset
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: resume
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: resume
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: inventory
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: inventory
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: advancements
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: advancements
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: stats
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: stats
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: quit
+[16:17:51] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: quit
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: map-reset
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: map-reset
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: refresh
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: refresh
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: settings
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: settings
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: view-reset
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: view-reset
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: resume
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: resume
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: inventory
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: inventory
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: advancements
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: advancements
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: stats
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: stats
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS visible bounds: quit
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: quit
+[16:17:55] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS browser hit target: quit
+[16:17:58] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS exit confirmation after resize
+[16:18:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS save and exit returns to title
+[16:18:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] PASS test world saved
+[16:18:02] [Render thread/INFO] [de.pu.en.qa.RuntimeProbe/]: [Endfield QA] ALL RUNTIME CHECKS PASSED

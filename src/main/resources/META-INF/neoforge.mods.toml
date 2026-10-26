@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GPL-3.0-or-later"
+
+[[mods]]
+modId="endfieldmenu"
+version="1.5.0"
+displayName="Endfield Menu"
+authors="PureNeko"
+description='''A tactical ApricityUI pause menu with a terrain survey of the loaded world.'''
+
+[[mixins]]
+config="endfieldmenu.mixins.json"
+
+[[dependencies.endfieldmenu]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.251,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.endfieldmenu]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.endfieldmenu]]
+modId="apricityui"
+type="required"
+versionRange="[1.2.8,)"
+ordering="AFTER"
+side="CLIENT"

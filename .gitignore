@@ -1,0 +1,14 @@
+.gradle/
+.cache/
+build/
+run/
+.idea/
+*.iml
+reference/**/docs/demo.mp4
+
+tools/native-export/node_modules/
+tools/native-export/preview-data/
+tools/native-export/.cache*
+tools/native-codec/build/
+__pycache__/
+*.pyc
